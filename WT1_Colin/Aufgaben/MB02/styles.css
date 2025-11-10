@@ -1,0 +1,69 @@
+h1, h2 {
+    color: blue;
+    outline-style: dotted;
+    outline-color: chartreuse;
+    outline-width: 10px;
+}
+
+h2 {
+    background-color: rgb(30, 188, 194);
+    
+}
+
+h1  {
+    font-size: 60px;
+    color: rgba(0, 0, 255, 0.603);
+    background-color: black;
+    line-height: 2em;
+    width: 50%;
+    /*rgba a= deckkraft , 4 zahl*/
+    /* color: #0f0; Farbe in Hex */
+}
+
+/*
+Class immer mit . ".ue" 
+Klassen werden genommen wenn mehrere Sachen geändert wird
+*/
+.ue1 {
+    outline-color: green;
+    outline-width: 5px;
+    color: green;
+}
+
+/*
+id wird mit # gemacht, 
+darf es im html nur 1 mal geben 
+Sehr spezifisch = maximale wertung 
+*/
+
+#ue2{
+    color: rgb(255, 0, 174);
+}
+
+/*
+Leerzeichen = in 1 wird 2 gemacht
+> = direktes Kind 
+*/
+ol>li>b {
+    color: green;
+}
+
+/*
+Pseude Selektor
+nth-child(x) jedes x, odd und even
+first-child() erstes 
+last-child() letztes 
+*/ 
+ol li:nth-child(2) {
+    color: blue;
+}
+
+/*
+Links besucht, neu, darüberfahren
+*/
+a:link, a:visited {
+    background-color: yellow;
+}
+a:hover {
+    background-color: blue;
+}
