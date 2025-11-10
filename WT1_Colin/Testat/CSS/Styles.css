@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(58, 57, 56);
+}
+
+nav {
+    background-color: rgba(128, 128, 128, 0.726);
+}
+nav ul {
+    line-height: 3em;
+}
+
+header {
+    background-color: rgba(128, 128, 128, 0.726);
+    line-height: 3em;
+}
+
+.hauptteil {
+    background-color: rgba(128, 128, 128, 0.726);
+    width: 90%;
+    line-height: 2em;
+}
+
+
+
+
+
+a:link, a:visited {
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+img {
+    width: 30%;
+}
+
+
