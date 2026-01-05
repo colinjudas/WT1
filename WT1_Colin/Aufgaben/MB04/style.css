@@ -1,0 +1,28 @@
+div {
+    background-color: green;
+    min-width: 300px;
+    max-width: 400px;
+    padding: 5px;
+}
+
+p {
+    background-color: hsla(240, 100%, 50%, 0.818);
+    width: 200px;
+    height: 2em;
+    padding: 10px;
+    padding-top: 5px;
+    border-top: 5px solid;
+    margin: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    /* opacity: 0.5; deckkraft für alles */
+}
+
+label {
+    width: 80px;
+
+    /*braucht es um inline Elemente gleich gross zu machen*/
+    display: inline-block; 
+
+    margin: 5px;
+}

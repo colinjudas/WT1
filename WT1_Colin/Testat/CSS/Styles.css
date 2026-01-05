@@ -34,7 +34,7 @@ header {
 
 .hauptteil {
     background-color: rgba(128, 128, 128, 0.726);
-    line-height: 2em;
+    /*line-height: 2em;*/
 }
 
 
@@ -42,7 +42,26 @@ img {
     width: 30%;
 }
 
+.lebenslauf {
+ border: solid;
+ border-color: rgb(0, 0, 0);
+}
 
+.zeile {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  padding: 4px 0;
+}
+.zeile p {
+  margin: 0;
+  width: 33%;
+ }
+
+ .feedback {
+  width: 50px;
+  display: inline-block;
+ }
 /*
 a:link, a:visited {
     color: black;
