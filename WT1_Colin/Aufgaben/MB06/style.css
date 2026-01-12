@@ -1,0 +1,57 @@
+
+
+/*
+div {
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+p {
+    background-color: green;
+    padding: inherit;
+}
+    */
+
+td {
+    border: 1px solid black;
+}
+table {
+border-collapse: separate;
+border-spacing: 5px;
+}
+
+thead {
+    text-transform: uppercase;
+}
+
+th {
+    border-bottom: 2px solid red;
+}
+tr:hover {
+    background-color: lightgrey;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: blue;
+}
+
+td:hover {
+    background-color: aqua;
+}
+div {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: conic-gradient(aqua, black);
+    /*background-image: url("Screenshot\ 2026-01-12\ 145456.png");
+    background-repeat: space;*/
+}
+
+
+:focus {
+    border: 3px solid red;
+}
+
+.ueli {
+    
+}
