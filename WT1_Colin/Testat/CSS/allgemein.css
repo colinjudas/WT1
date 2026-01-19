@@ -1,0 +1,42 @@
+/*Allgmeine Formatierung*/
+
+body {
+    background-color: #373f47;
+}
+
+.hauptteil {
+    background-color: rgba(128, 128, 128, 0.726);
+    /*line-height: 2em;*/
+}
+
+
+img {
+    width: 30%;
+}
+
+
+/*------------------------------------------------------------------------*/
+
+
+/*über mich Seite formatierung*/
+
+.ichflex {
+    display: flex;
+    flex-direction: row;
+}
+
+.ichflexitem {
+   flex-basis: 60%;
+}
+.ichflexitemimg {
+    display: flex;
+    flex-basis: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.ichflexitemimg > img {
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: contain;
+}

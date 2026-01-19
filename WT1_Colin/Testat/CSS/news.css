@@ -1,0 +1,52 @@
+
+
+/*Newsseite Formatierung*/
+
+.ueli {
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    background-image: url("../Bilder/Screenshot\ 2026-01-12\ 145456.png");
+    background-repeat: no-repeat;
+}
+
+/*
+.background {
+  background-image: conic-gradient(aqua, black);
+}
+*/
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*Buttons auf der Hauptseite für Newsseite*/
+
+h3 > a:link, h3 > a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+h3 > a:hover, h3 > a:active {
+  background-color: red;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+/*Newsseite Flex formatierung*/
+
+.newsflex {
+  background-color: rgba(128, 128, 128, 0.726);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.newsflexitem {
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+}

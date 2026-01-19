@@ -4,9 +4,16 @@
 <head>
     <title>Testat Colin Judas</title>
     <link rel="stylesheet" href="CSS/Styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
 </head>
 
 <body class="font">
+    <div class="flexheader">
+        <div class="flexheaderitem"><h1>News Testat</h1></div>
+        <div class="flexheaderitem">Colin Judas</div>
+    </div>
     <nav>
         <ul>
             <li><a href="index.html">News</a></li>
@@ -16,37 +23,36 @@
         </ul>
     </nav>
 
-    <header>
-        <h1>Testat Colin</h1>
-        <h2>FeedBack</h2>
-    </header>
-    <hr>
-
+<div class="spacehauptteil">  
+    <div class="spacelinksrechts"></div>
+    <div class="spacemitte">
     <!-- um label auf gleiche höhe muss input aus label -->
-    <section class="hauptteil">
-        <form action="index.html" method="get">
-            <label class="feedback">Name:
-                <input type="text" name="Name" placeholder="bitte Namen eingeben..." required>
-            <label>
-                <br>
-            <label class="feedback">Email:
-                <input type="email" name="email" placeholder="bitte Email eingeben..." required>
-            </label>
-                <br>
-            <label class="feedback">Überschrift
-                <input type="text" name="überschrift" placeholder="bitte Überschrift eingeben..." required >
-            </label>
-                <br>
-            <label class="feedback">Inhalt
-                <textarea id="Titel" rows="6" cols="50"></textarea>
-                <!--<input type="text" name="inhalt" placeholder="bitte Inhalt eingeben..." required > -->
-            </label>
-                <br>
-            <input type="reset" name="reset" value="Abbrechen">
-            <input type="submit" name="speichern" value="Speichern">
-        </form>
-    </section>
-
+        <section class="hauptteil">
+            <form action="index.html" method="get">
+                <label class="feedback">Name:
+                    <input type="text" name="Name" placeholder="bitte Namen eingeben..." required>
+                </label>
+                    <br>
+                <label class="feedback">Email:
+                    <input type="email" name="email" placeholder="bitte Email eingeben..." required>
+                </label>
+                    <br>
+                <label class="feedback">Überschrift
+                    <input type="text" name="überschrift" placeholder="bitte Überschrift eingeben..." required >
+                </label>
+                    <br>
+                <label class="feedback">Inhalt
+                    <textarea id="Titel" rows="6" cols="50"></textarea>
+                    <!--<input type="text" name="inhalt" placeholder="bitte Inhalt eingeben..." required > -->
+                </label>
+                    <br>
+                <input type="reset" name="reset" value="Abbrechen">
+                <input type="submit" name="speichern" value="Speichern">
+            </form>
+        </section>
+    </div>
+    <div class="spacelinksrechts"></div>
+</div>
 </body>
 
 </html>

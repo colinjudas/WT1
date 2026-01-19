@@ -1,0 +1,43 @@
+/*
+body {
+    background-color: green;
+}
+@media screen and (min-width: 160px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    body {
+        background-color: red;
+    }
+} */
+
+.flexcontainer {
+    display: flex;
+    height: 200px;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flexitem {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.flexitem:nth-child(1) {
+    order: 2;
+}
+.flexitem:nth-child(2) {
+    order: 1;
+}
+.flexitem:nth-child(3) {
+    order: 4;
+    flex-basis: 100px;
+}
+.flexitem:nth-child(4) {
+    order: 3;
+}
