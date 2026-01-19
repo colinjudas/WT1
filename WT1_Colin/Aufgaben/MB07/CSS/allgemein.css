@@ -1,0 +1,22 @@
+/*Allgmeine Einstellungen */
+
+
+:root {
+    --standardpadding: 5px;
+}
+
+/*Elemente*/
+
+td, li {
+    padding: var(--standardpadding);
+}
+
+li {
+    border: 1px solid blue;
+}
+
+
+
+
+
+/*Klassen*/

@@ -1,0 +1,34 @@
+/*Allgemeiner Start über Normalize.css*/
+@import url("normalize.css");
+
+/*Allgemeiner Start über Allgmein.css*/
+@import url("allgemein.css");
+
+.border {
+    border: 1px solid red;
+}
+
+.border div {
+    background-color: green;
+    margin: 2px;
+    width: 100px;
+    float: right;
+    
+}
+
+.pos {
+    /*position: fixed;*/
+    /*top: 10px;
+    left: 20px;*/
+    clear: left;
+}
+/*
+position: fixed; = fixiert auch bei scrollen
+position: relative; = bleibt am gleichen ort, vorgesehener Platz bleibt bestehen 
+position: absolut; = bleibt am gleichen ort, andere Teile lassen kein platz
+*/
+
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
