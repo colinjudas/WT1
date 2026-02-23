@@ -1,0 +1,76 @@
+
+@use 'variables';
+
+body {
+    background-color: variables.$primary-color;
+}
+
+@mixin theme($farbe: green, $size: 20px) {
+    background: $farbe;
+    font-size: $size;
+    letter-spacing: 1.5;
+}
+
+.info {
+    @include theme;
+    border: 1px solid green;
+}
+
+.alert {
+    @include theme($farbe: red);
+}
+
+.big {
+    @include theme($size:50px);
+}
+
+/* Allgemeine Formatierung */
+
+$bg-body: #373f47;
+$bg-hauptteil: rgba(128, 128, 128, 0.726);
+$line-height-hauptteil: 1.6em;
+
+$news-grad-start: #373f47;
+$news-grad-end: #1f2933;
+
+body {
+  background-color: $bg-body;
+}
+
+.hauptteil {
+  background-color: $bg-hauptteil;
+  line-height: $line-height-hauptteil;
+}
+
+img {
+  width: 30%;
+}
+
+.newsbody {
+  background: linear-gradient(135deg, $news-grad-start, $news-grad-end);
+}
+
+/* ------------------------------------------------------------------------ */
+/* Über mich Seite Formatierung */
+
+.ichflex {
+  display: flex;
+  flex-direction: row;
+
+  &item {
+    flex-basis: 60%;
+  }
+
+  &itemimg {
+    display: flex;
+    flex-basis: 40%;
+    align-items: center;
+    justify-content: center;
+
+    > img {
+      max-width: 80%;
+      max-height: 80%;
+      object-fit: contain;
+    }
+  }
+}

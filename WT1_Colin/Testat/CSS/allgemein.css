@@ -15,9 +15,6 @@ img {
     width: 30%;
 }
 
-body{
-  background: linear-gradient(135deg, #373f47, #1f2933);
-}
 
 
 
@@ -45,4 +42,61 @@ body{
   max-width: 80%;
   max-height: 80%;
   object-fit: contain;
+}
+
+/*------------------------------------------------------------------------*/
+/* Media */
+@media (max-width: 600px){
+  .newsflexitem{
+    width: 90%;
+    height: auto;
+  }
+  img{ width: 80%; }
+}
+
+@media (min-width: 601px) and (max-width: 900px){
+  .newsflexitem{ width: 45%; }
+}
+
+@media (min-width: 901px){
+  .newsflexitem{ width: 400px; }
+}
+
+
+/*Lebenslauf grid*/
+.lebenslauf {
+    max-width: 800px;
+    margin: auto;
+    background: linear-gradient(135deg, #d1d8df, #8ca6bf);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.lebenslauf h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 12px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.header {
+    font-weight: bold;
+    background-color: #f0f2f5;
+    padding: 12px 10px;
+    border-radius: 6px;
+}
+
+.grid-container div {
+    padding: 5px 10px;
+}
+
+.grid-container:hover {
+    background-color: #f9fafb;
+    transition: 0.2s;
 }

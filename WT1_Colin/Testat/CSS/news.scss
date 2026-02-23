@@ -1,35 +1,38 @@
-
-
 /*Newsseite Formatierung*/
 
-.ueli {
-    width: 400px;
-    height: 300px;
-    border: 1px solid black;
-    background-image: url("../Bilder/Screenshot\ 2026-01-12\ 145456.png");
-    background-repeat: no-repeat;
-}
+$btn-red: #f44336;
 
+.ueli {
+  width: 400px;
+  height: 300px;
+  border: 1px solid black;
+  background-image: url("../Bilder/Screenshot 2026-01-12 145456.png");
+  background-repeat: no-repeat;
+}
 
 /*-----------------------------------------------------------------------------------------*/
-
 /*Buttons auf der Hauptseite für Newsseite*/
 
-h3 > a:link, h3 > a:visited {
-  background-color: #f44336;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
+h3 {
+  > a {
+    &:link,
+    &:visited {
+      background-color: $btn-red;
+      color: white;
+      padding: 14px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
 
-h3 > a:hover, h3 > a:active {
-  background-color: red;
+    &:hover,
+    &:active {
+      background-color: red;
+    }
+  }
 }
 
 /*------------------------------------------------------------------------------------------*/
-
 /*Newsseite Flex formatierung*/
 
 .newsflex {
@@ -43,6 +46,3 @@ h3 > a:hover, h3 > a:active {
   height: 200px;
   margin: 10px;
 }
-
-
-
