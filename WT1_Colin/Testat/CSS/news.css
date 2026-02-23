@@ -36,7 +36,7 @@ h3 > a:hover, h3 > a:active {
 /*------------------------------------------------------------------------------------------*/
 
 /*Newsseite Flex formatierung*/
-
+/*
 .newsflex {
   background-color: rgba(128, 128, 128, 0.726);
   display: flex;
@@ -50,3 +50,36 @@ h3 > a:hover, h3 > a:active {
     width: 400px;
     margin: 10px;
 }
+    */
+
+.newsflex {
+  background-color: rgba(128, 128, 128, 0.726);
+  overflow: auto; /* clearfix */
+}
+
+.newsflexitem {
+  float: left;
+  width: 400px;
+  height: 200px;
+  margin: 10px;
+}
+
+/*----------------------------------------------------*/
+
+/* Media */
+@media (max-width: 600px){
+  .newsflexitem{
+    width: 90%;
+    height: auto;
+  }
+  img{ width: 80%; }
+}
+
+@media (min-width: 601px) and (max-width: 900px){
+  .newsflexitem{ width: 45%; }
+}
+
+@media (min-width: 901px){
+  .newsflexitem{ width: 400px; }
+}
+

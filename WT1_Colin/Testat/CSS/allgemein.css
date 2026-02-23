@@ -6,13 +6,19 @@ body {
 
 .hauptteil {
     background-color: rgba(128, 128, 128, 0.726);
-    /*line-height: 2em;*/
+    line-height: 1.6em;
 }
+
 
 
 img {
     width: 30%;
 }
+
+body{
+  background: linear-gradient(135deg, #373f47, #1f2933);
+}
+
 
 
 /*------------------------------------------------------------------------*/
